@@ -1,6 +1,6 @@
 <?php 
 $page_titre = "contact";
-$css = "";
+$css = "public/css/style_contact.css";
 ob_start();
 
 include "view/contact.view.php"; 
