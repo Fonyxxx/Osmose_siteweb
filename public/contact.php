@@ -28,9 +28,9 @@
 			<div >
 				<h2> Suivez-nous</h2>
 				<section class="reseau" >
-			<a href="https://www.facebook.com/people/Osmose/100091750453928/"><img src="img/facebook.png"></a>
-		<a href="https://www.instagram.com/brasserie.osmose/"><img src="img/instagram.png"></a>
-	<a href="https://www.tiktok.com/@brasserie.osmose" ><img src="img/tiktok.png"></a>
+			<a href="https://www.facebook.com/people/Osmose/100091750453928/"><img src="image/facebook.png"></a>
+		<a href="https://www.instagram.com/brasserie.osmose/"><img src="image/instagram.png"></a>
+	<a href="https://www.tiktok.com/@brasserie.osmose" ><img src="image/tiktok.png"></a>
 			</section>
 			</div>
 		</div>
