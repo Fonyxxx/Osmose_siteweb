@@ -1,6 +1,6 @@
 <?php 
 $page_titre = "brasserie";
-$css = "";
+$css = "public/css/style_brasserie.css";
 ob_start();
 
 include "view/brasserie.view.php"; 

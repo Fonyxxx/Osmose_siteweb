@@ -1,6 +1,6 @@
 <?php 
 $page_titre = "age";
-$css = "";
+$css = "public/css/style_age.css";
 ob_start();
 
 include "view/age.view.php"; 

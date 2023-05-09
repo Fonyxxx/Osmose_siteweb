@@ -1,5 +1,5 @@
 <?php 
-$page_titre = "Accueil";
+$page_titre = "accueil";
 $css = "public/css/style_accueil.css";
 ob_start();
 

@@ -1,6 +1,6 @@
 <?php 
 $page_titre = "box";
-$css = "";
+$css = "public/css/style_box.css";
 ob_start();
 
 include "view/box.view.php"; 

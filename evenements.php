@@ -1,6 +1,6 @@
 <?php 
 $page_titre = "evenements";
-$css = "";
+$css = "public/css/style_evenements.css";
 ob_start();
 
 include "view/evenements.view.php"; 
