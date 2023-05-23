@@ -1,6 +1,6 @@
 <?php 
 $page_titre = "goodies";
-$css = "public/css/style_goodies.css";
+$css = "public/css/style_panier.css";
 ob_start();
 
 include "view/evenements.view.php"; 
