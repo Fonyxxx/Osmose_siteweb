@@ -2,7 +2,8 @@
 <html>
 <head>
     <title>Titre de la page</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="public/css/style_header.css">
+    <link rel="stylesheet" href="public/css/style_footer.css">
 </head>
 <body>
     <header>
