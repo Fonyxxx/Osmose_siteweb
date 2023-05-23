@@ -7,7 +7,7 @@
 <body>
     <header>
         <div class="logo">
-            <img src="../img/osmose.svg" alt="Logo de l'entreprise">
+            <img src="public/images/osmose.svg" alt="Logo de l'entreprise">
         </div>
         <nav>
             <ul>
