@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="styles.css">
+</main>
 <footer>
     <div class="social-links">
         <a href="#"><i class="fab fa-facebook"></i></a>
@@ -11,3 +11,5 @@
     </div>
     <p>&copy; 2023 OSMOSE. Tous droits réservés.</p>
 </footer>
+</body>
+</html>

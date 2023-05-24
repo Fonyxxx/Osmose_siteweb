@@ -1,64 +1,78 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-body {
+.nom{
+	display: inline-block;
+	justify-content: space-around;
+	margin-right: 30px;
+	width: 200px;
+	
+}
+
+  textarea::placeholder {
+        color: #32422eb6;
+        opacity: 1;}
+
+main {
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top:100px;
-    margin-bottom: 100px;
+    padding-top:100px;
+    padding-bottom: 100px;
     background-color: #32422eb6;
 }
 
+
 .contact, .info {
     width: 48%;
+	border-radius: 15px;
   }
 
 
 .contact, .info, .map {
-    flex-basis: 33.33%;
-    padding: 20px;
+	flex-basis: 33.33%;
+	padding: 20px;
 }
 
 
 
 h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
+	font-size: 24px;
+	margin-bottom: 20px;
 }
 
 form label {
-    display: block;
-    margin-bottom: 10px;
+	display: block;
+	margin-bottom: 10px;
 }
 
 form input[type="submit"] {
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    color: #32422E;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	color: #32422E;
     background-color: #FFCE6F;
 }
 
 form input,
 form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
     background-color: #ffecd292;
-
+    
 }
 
 
 
 .map {
-    height: 450px;
+	height: 450px;
 }
 
 iframe{
@@ -67,7 +81,7 @@ iframe{
 }
 
 .info p {
-    margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 div{
@@ -76,13 +90,16 @@ div{
 }
 
 .reseau{
-    display: flex;
+	display: flex;
     flex-wrap: wrap;
-    align-content: space-around;
+	align-content: space-around;
+	
 }
-
+.reseau a i{
+color: #FFCE6F;
+}
 img{
-    margin-right: 15px;
-        max-width : 30px;
-        height : auto;
+	margin-right: 15px;
+		max-width : 30px;
+		height : auto;
 }
