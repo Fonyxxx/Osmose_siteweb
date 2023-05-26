@@ -14,16 +14,18 @@
 	<header>
 		
 	<div class="logo">
-			<img src="../../public/images/osmose_vert.png" >
+			<a href="../../accueil.php"><img src="../../public/images/osmose.svg" ></a>
 		</div>
 	
 		<nav>
 			<ul>
-				<li><a href="#">Boutique</a></li>
-				<li><a href="#">Brasserie</a></li>
-				<li><a href="#">EVENEMENT</a></li>
-				<li><a href="#">Contact</a></li>
-                <li><a href="#"><i class='bx bx-shopping-bag'></i></a></li>
+				
+				<li><a href="../../bieres.php">Boutique</a></li>
+				<li><a href="../../brasserie.php">Brasserie</a></li>
+				<li><a href="../../evenements.php">EVENEMENT</a></li>
+				<li><a href="../../contact.php">Contact</a></li>
+                <li><a href="../../panier.php"><i class='bx bx-shopping-bag bx-sm' ></i></a></li>
+				
 			</div>
 
 			</ul>
