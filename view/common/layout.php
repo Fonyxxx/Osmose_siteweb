@@ -1,5 +1,5 @@
-<?php include 'view/common/header.php'; ?>
-
-<?= $content ?>
-
-<?php include 'view/common/footer.php'; ?>
+<?php 
+include 'view/common/header.php'; 
+echo $content; 
+include 'view/common/footer.php'; 
+?>

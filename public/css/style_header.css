@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Apollo'; 
+    src: url('../fonts/APOLLO.otf'); 
+}
+
+@font-face {
+    font-family: 'Josefin'; 
+    src: url('../fonts/JosefinSans-Regular.ttf'); 
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    --main-color--:#FFF3E0;
+    --secound-color--:#32422E;
+    --detail-color--: #E8CA90;
+    list-style: none;
+    font-weight: 400;
+}
+
+main{
+    background-color: var(--main-color--);
+}
+
+header {
+    background-color: var(--main-color--);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: sticky;
+    z-index: 999;
+    top: 0px;
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+}
+
+.logo img {
+    height: 30px;
+    padding: 30px 0px 20px 70px;
+}
+
+
+.navlist {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul{
+    margin-right: 5%;
+}
+
+nav li {
+    margin-left: 20px;
+    padding: 0px 20px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: 'Apollo';
+}
+
+.icons_header a{
+    font-size: 1.4rem;
+}
