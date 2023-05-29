@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="http://www.cdnfonts.com/apollo.font" rel="canonical">
-	<link rel="stylesheet" href="public/css/style.css">
+	<link rel="stylesheet" href="../../public/css/style_header.css">
     <?php if (isset($css)): ?>
         <link rel="stylesheet" href="<?= $css ?>">
     <?php endif ?>
@@ -31,3 +31,5 @@
 			</ul>
 		</nav>
 	</header>
+
+	<main>
