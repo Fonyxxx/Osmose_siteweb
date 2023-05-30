@@ -1,5 +1,5 @@
 <?php 
-$page_titre = "age";
+$page_titre = "Age";
 $css = "public/css/style_age.css";
 ob_start();
 
