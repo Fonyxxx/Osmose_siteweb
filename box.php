@@ -1,5 +1,5 @@
 <?php 
-$page_titre = "box";
+$page_titre = "Box";
 $css = "public/css/style_box.css";
 ob_start();
 
