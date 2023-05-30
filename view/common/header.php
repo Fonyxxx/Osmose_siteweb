@@ -9,9 +9,7 @@
     <link rel="stylesheet" href="public/css/style_header.css">
     <link rel="stylesheet" href="public/css/style_footer.css">
     <title><?= $page_titre ?></title>
-	<?php if (isset($css)): ?>
-        <link rel="stylesheet" href="<?= $css ?>">
-    <?php endif ?>
+	<link rel="stylesheet" href="<?= $css ?>">
 
 
 </head>
@@ -19,7 +17,7 @@
     <header>
         
     <div class="logo">
-            <img src="public/images/osmose_vert.png" >
+            <a href="accueil.php"><img src="public/images/osmose_vert.png" ></a>
         </div>
     
         <nav>
