@@ -1,61 +1,80 @@
+@font-face {
+    font-family: 'Apollo';
+    src: url('../fonts/APOLLO.otf'); 
+}
+
+@font-face {
+    font-family: 'Josefin'; 
+    src: url('../fonts/JosefinSans-Regular.ttf'); 
+}
+
+
 *{
     padding: 0;
     margin: 0;
     --main-color--:#FFF3E0;
     --secound-color--:#32422E;
     --detail-color--: #E8CA90;
-    --text-font--: 'Josefin Sans', sans-serif;
-    --big-font--: 'APOLLO Regular';
-    list-style: none;
-    font-family: var(--text-font--);
-    font-weight: 400;
+    font-family: 'Josefin';
 }
 
 main{
-    background-color: var(--main-color--);
+    background-color: #FFF3E0;
 }
 
-header {
-    background-color: var(--main-color--);
-    height: 80px;
+nav {
+    width: 100%;
+    height: 6rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    position: sticky;
-    z-index: 999;
-    top: 0px;
+    text-align: center;
+    background-color:#FFF3E0;
     box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
 }
 
-.logo img {
-    height: 30px;
-    padding: 30px 0px 20px 70px;
+.logo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 20px;
 }
 
+.logo img {
+    width: 9rem;
+}
 
 .navlist {
     display: flex;
-    justify-content: space-around;
+    padding: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
 }
 
-nav ul{
-    margin-right: 5%;
-}
-
-nav li {
-    margin-left: 20px;
-    padding: 0px 20px;
-}
-
-nav a {
-    color: #333;
+.lespages a {
     text-decoration: none;
-    font-size: 19px;
-    font-weight: 400;
-    font-family: var(--big-font--);
+    color:#32422E;
+    font-family: "Apollo";
+    font-size: 1.2rem;
+    padding: 0.2rem 1rem;
+    width: 10%;
 }
 
-.icons_header a{
-    font-size: 1.4rem;
+.lespages:hover {
+    padding-bottom: 10px ;
+    cursor: pointer;
+    transition: 0.3s;
 }
+
+.icons_header {
+    width: 3rem;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+.icons_header a {
+    color:rgb(5, 37, 6);
+}
+
