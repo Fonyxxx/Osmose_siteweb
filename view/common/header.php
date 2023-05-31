@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="public/css/style_header.css">
     <link rel="stylesheet" href="public/css/style_footer.css">
     <title><?= $page_titre ?></title>
-	<link rel="stylesheet" href="<?= $css ?>">
+    <?php if (isset($css)): ?>
+        <link rel="stylesheet" href="<?= $css ?>">
+    <?php endif ?>
 
 
 </head>
