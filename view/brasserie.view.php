@@ -3,7 +3,7 @@
     <h1>Qui sommes-nous ?</h1>
     <p>Nous sommes une micro-brasserie située à Moissy Cramayel. <br>
     Notre concept est de proposer une expérience gustative unique en associant une bière à chaque région française ainsi qu'un fromage local.</p>
-    <img src="logo_vert.png" class="presentation_logo">
+    <img src="public/images/logo_vert.png" class="presentation_logo">
   </div>
   <div class="brassage">
     <div class="titre_etape">
@@ -16,13 +16,13 @@
         <p>Les grains crus de céréales sont tout d’abord mis à tremper dans de l’eau tiède pendant près de deux jours pour les préparer à germer. Ils sont ensuite placés dans un germinoir. Au bout de quatre à huit jours, on obtient des graines germées nommées malt vert. Ce malt vert est alors chauffé à 85° dans un grand four appelé touraille. L’objectif et d’assécher les grains pour qu’ils arrêtent de germer et prennent une jolie couleur dorée. Cette étape s’appelle le « coup de feu » ! Vient ensuite la torréfaction, dans le cas où l’on souhaite obtenir un malt foncé. Tout dépend du type de bière souhaité. Pour finir, les radicelles sont arrachées des grains lors du dégermage.</p>
       </div>
       <div class="image_etape">
-        <img src="maltage.jpg">
+        <img src="public/images/maltage.jpg">
       </div>
     </div>
 
     <div class="etape">
       <div class="image_etape">
-        <img src="concassage.png">
+        <img src="public/images/concassage.png">
       </div>
       <div class="explications_etapes">
         <h2>Etape 2 : Le Concassage</h2>
@@ -36,13 +36,13 @@
         <p>L'empâtage est l'étape où la mouture est mélangé avec de l'eau chaude pour créer la "maische". Cette étape permet l'extraction des sucres et des composés aromatiques contenus dans les grains maltés.</p>
       </div>
       <div class="image_etape">
-        <img src="empatage.png">
+        <img src="public/images/empatage.png">
       </div>
     </div>
 
     <div class="etape">
       <div class="image_etape">
-        <img src="brassage.png">
+        <img src="public/images/brassage.png">
       </div>
       <div class="explications_etapes">
         <h2>Etape 4 : Le Brassage</h2>
@@ -56,13 +56,13 @@
         <p>Une fois cuit et stérilisé, le moût est refroidi à la température de fermentation souhaitée par le brasseur. Des levures sont ensuite ajoutées au mélange. Elles se développent grâce à l’oxygène présente dans le moût, puis grâce aux sucres dont elles se nourrissent. C’est à ce moment-là qu’elles libèrent l’alcool et le gaz carbonique. La température et les levures choisies par le brasseur définissent le style de bière.</p>
       </div>
       <div class="image_etape">
-        <img src="fermentation.png">
+        <img src="public/images/fermentation.png">
       </div>
     </div>
 
     <div class="etape">
       <div class="image_etape">
-        <img src="maturation.png">
+        <img src="public/images/maturation.png">
       </div>
       <div class="explications_etapes">
         <h2>Etape 6 : La Maturation</h2>
@@ -76,13 +76,13 @@
         <p>Après la maturation, la bière passe par l'étape de filtration pour éliminer les particules indésirables telles que les levures mortes et les résidus de houblon. Cela garantit une clarté optimale et une stabilité à long terme de la bière.</p>
       </div>
       <div class="image_etape">
-        <img src="filtration.png">
+        <img src="public/images/filtration.png">
       </div>
     </div>
 
     <div class="etape">
       <div class="image_etape">
-        <img src="conditionnement.png">
+        <img src="public/images/conditionnement.png">
       </div>
       <div class="explications_etapes">
         <h2>Etape 8 : Le Conditionnement</h2>

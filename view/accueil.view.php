@@ -17,9 +17,7 @@
 
 <section class="publicite">
     <h2>Trouvez la parfaite osmose entre nos bières aux arômes surprenants et vos fromages régionaux de qualité supérieure !</h2>
-    <video class="publicite_osmose" controls>
-        <source src="public/video/publicite_osmose.mp4" type="video/mov">
-    </video>
+    <video class="publicite_osmose" src="public/video/publicite_osmose.mp4" controls="" data-sr-id="38" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.2s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.2s;">La vidéo ne peut pas être lu</video>
 </section>
 
 <section class="plus_vendues">
