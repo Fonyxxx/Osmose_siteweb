@@ -1,0 +1,65 @@
+section{
+  padding: 8%;
+}
+
+section h1{
+  font-family: 'Apollo';
+  font-weight: 300;
+  font-size: 1.9rem;
+}
+
+.presentation_brasserie{
+  text-align: center;
+}
+
+.presentation_brasserie p{
+  font-size: 1.2rem;
+  padding: 1% 25%;
+  font-weight: 350;
+}
+
+.presentation_brasserie img{
+  padding: 2% 0% 0% 0%;
+}
+
+.titre_etape{
+  padding: 5% 4% 10%;
+}
+
+.titre_etape h4{
+  font-weight: 350;
+  font-size: 1.5rem;
+}
+
+.etape{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10%;
+  padding: 3% 0%;
+  align-items: center;
+  text-align: justify;
+}
+
+.explications_etapes h2{
+  font-family: 'Apollo';
+  font-weight: 200;
+  font-size: 1.7rem;
+  padding: 3% 0% 3% 0%;
+}
+
+.explications_etapes p{
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+.image_etape img{
+  max-width: 100%;
+  border-radius: 20px;
+  width: 90%;
+  align-items: center;
+}
+
+.image_etape{
+  display: grid;
+  justify-items: center;
+}

@@ -1,0 +1,164 @@
+/*------SECTION TOP------*/
+
+.top{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    align-items: center;
+    padding: 2% 5% 2% 5%;
+    height: 20%;
+}
+
+.group_top{
+    background: var(--secound-color--);
+    padding-bottom: 4%;
+}
+
+.presentation_top{
+    padding: 5%;
+    color: var(--main-color--);
+}
+
+.presentation_top h1{
+    font-family: 'Apollo';
+    font-size: 2.5rem;
+    padding-bottom: 5%;
+    font-weight: 400;
+}
+
+.presentation_top p{
+    font-family: 'Josefin';
+    font-size: 1.3rem;
+    font-weight: 300;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: left;
+    width: 80%;
+}
+
+
+
+.photo_top img{
+    max-width: 100%;
+    width: 30rem;
+}
+
+#bouton_decouvrir{
+    font-family: 'Apollo';
+    text-align: center;
+    background: var(--main-color--);
+    padding: 0.3% 4.8%;
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: var(--secound-color--);
+    border-radius: 6px;
+}
+
+#bouton_decouvrir:hover{
+    background: var(--detail-color--);
+    transition: .5s;
+}
+
+.bouton_place{
+    text-align: center;
+}
+
+
+/*------SECTION VIDEO------*/
+
+.publicite{
+    padding: 6% 20%;
+    text-align: center;
+}
+
+.publicite_osmose{
+    padding: 6% 0%;
+    text-align: center;
+    width: 90%;
+    height: auto;
+}
+
+/*------LES PLUS VENDUES------*/
+
+.plus_vendues{
+    padding: 5%;
+    max-width: 100%;
+}
+
+.bieres{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 5%;
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.bloc_biere{
+    align-items: center;
+}
+
+.bloc_biere img{
+    max-width: 100%;
+}
+
+.plus_vendues h1{
+    font-family: 'Apollo';
+    font-size: 2.1rem;
+    padding: 0% 5%;
+    font-weight: 500;
+}
+
+.text_bieres h3{
+    font-family: 'Apollo';
+    font-size: 1.7rem;
+    padding-top: 5%;
+}
+
+.text_bieres h5{
+    font-family: 'Apollo';
+    font-size: 1.2rem;
+    padding-top: 1%;
+}
+
+/*------LES BOX------*/
+
+.nos_box{
+    padding: 5%;
+    max-width: 100%;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 5%;
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.bloc_box{
+    align-items: center;
+}
+
+.bloc_box img{
+    max-width: 100%;
+}
+
+.nos_box h1{
+    font-family: 'Apollo';
+    font-size: 2.1rem;
+    padding: 0% 5%;
+    font-weight: 500;
+}
+
+.text_box h3{
+    font-family:'Apollo';
+    font-size: 1.7rem;
+    padding-top: 5%;
+}
+
+.text_box h5{
+    font-family: 'Apollo';
+    font-size: 1.2rem;
+    padding-top: 1%;
+}

@@ -1,31 +1,80 @@
-header {
-    background-color: #fff;
-    box-shadow: 0px 2px 5px rgba(0,0,0,0.25);
-    height: 80px;
+@font-face {
+    font-family: 'Apollo';
+    src: url('../fonts/APOLLO.otf'); 
+}
+
+@font-face {
+    font-family: 'Josefin'; 
+    src: url('../fonts/JosefinSans-Regular.ttf'); 
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    --main-color--:#FFF3E0;
+    --secound-color--:#32422E;
+    --detail-color--: #E8CA90;
+    font-family: 'Josefin';
+}
+
+main{
+    background-color: #FFF3E0;
+}
+
+nav {
+    width: 100%;
+    height: 6rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    text-align: center;
+    background-color:#FFF3E0;
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 20px;
 }
 
 .logo img {
-    height: 50px;
+    width: 9rem;
 }
 
-nav ul {
+.navlist {
     display: flex;
-    list-style: none;
-    margin: 0;
     padding: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
 }
 
-nav li {
-    margin-left: 20px;
-}
-
-nav a {
-    color: #333;
+.lespages a {
     text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
+    color:#32422E;
+    font-family: "Apollo";
+    font-size: 1.2rem;
+    padding: 0.2rem 1rem;
+    width: 10%;
 }
+
+.lespages:hover {
+    padding-bottom: 10px ;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.icons_header {
+    width: 3rem;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+.icons_header a {
+    color:rgb(5, 37, 6);
+}
+
