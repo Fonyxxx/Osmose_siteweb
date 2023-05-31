@@ -22,7 +22,7 @@
 				
 				<li><a href="../../bieres.php">Boutique</a></li>
 				<li><a href="../../brasserie.php">Brasserie</a></li>
-				<li><a href="../../evenements.php">EVENEMENT</a></li>
+				<li><a href="../../evenements.php">Evenements</a></li>
 				<li><a href="../../contact.php">Contact</a></li>
                 <li><a href="../../panier.php"><i class='bx bx-shopping-bag bx-sm' ></i></a></li>
 				
