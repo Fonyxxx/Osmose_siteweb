@@ -133,42 +133,42 @@
 <form class="formulaire_info" id="formulaire_info" action="lapage.php">
     <div id="bloc_prenom">
         <label for="prenom">Prénom</label><br>
-        <input type="text" id="prenom" name="prenom" placeholder="Prénom"><br>
+        <input type="text" id="prenom" name="prenom" placeholder="Prénom" required><br>
     </div>
 
     <div id="bloc_nom">
         <label for="nom">Nom</label><br>
-        <input type="text" id="nom" name="nom" placeholder="Nom"><br>
+        <input type="text" id="nom" name="nom" placeholder="Nom" required><br>
     </div>
 
     <div id="bloc_email" >
         <label for="email">Email</label><br>
-        <input type="email" id="email" name="email" placeholder="xxx.xxxx@gmail.com"><br>
+        <input type="email" id="email" name="email" placeholder="xxx.xxxx@gmail.com" required><br>
     </div>
 
     <div id="bloc_tel">
         <label for="tel">Téléphone</label><br>
-        <input type="tel" id="tel" name="tel" placeholder="XX XX XX XX XX"><br>
+        <input type="tel" id="tel" name="tel" placeholder="XX XX XX XX XX" required><br>
     </div>
 
     <div id="bloc_adresse">
         <label for="adresse">Adresse</label><br>
-        <input type="text" id="adresse" name="adresse" placeholder="12 avenue des Lys"><br>
+        <input type="text" id="adresse" name="adresse" placeholder="12 avenue des Lys" required><br>
     </div>
 
     <div id="bloc_ville">
         <label for="ville">Ville</label><br>
-        <input type="text" id="ville" name="ville" placeholder="Maville"><br>
+        <input type="text" id="ville" name="ville" placeholder="Maville" required><br>
     </div>
     
     <div id="bloc_code_postal">
         <label for="code_postal">Code Postal</label><br>
-        <input type="text" id="code_postal" name="code_postal" placeholder="XX XXX"><br>
+        <input type="text" id="code_postal" name="code_postal" placeholder="XX XXX" required><br>
     </div>
 
     <div id="consent_sub">
         <div id="pol_consent">
-            <input type="checkbox" id="consent" name="consent" unchecked>
+            <input type="checkbox" id="consent" name="consent" unchecked required>
             <label for="scales">En cochant cette case, j'affirme avoir lu et accepté la politique de confidentialité</label>
         </div>
         <input id="le_bouton" type="submit" value="Submit">
