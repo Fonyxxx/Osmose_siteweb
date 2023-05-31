@@ -1,7 +1,7 @@
 
 
 
-	<main>
+	
 	<div class="info">
 	<h2>Informations</h2>
 	<p><strong>Adresse :</strong> 240 rue de la Motte, 77550 Moissy Cramayel</p>
@@ -13,9 +13,7 @@
 </div>
 
 
-</div>
-
-	
+</div>	
 		<div class="contact">
 			<h2>Contactez-nous</h2>
         
