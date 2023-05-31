@@ -22,14 +22,14 @@ main{
     display: flex;
     flex-direction: row;
     gap: 5%;
-    padding: 0% 5%;
+    padding: 0% 15%;
 }
 
 .forms_haut h2{
     text-align: center;
     padding: 2%;
     font-family: 'apollo';
-    font-weight: 600;
+    font-weight: 400;
     font-size: 1.8rem;
 }
 
@@ -38,6 +38,7 @@ main{
     flex-direction: column;
     background: wheat;
     border-radius: 30px;
+    justify-content: space-around;
 }
 
 .group_produit img{
@@ -61,7 +62,7 @@ main{
     height: 1.2rem;
     border: none;
     border-radius: 10px;
-    font-size: 1.0rem;
+    font-size: 0.8rem;
     padding: 10px;
     width: 100px;
 }
@@ -76,10 +77,54 @@ main{
 }
 
 
+/*FORMULAIRES INFOS*/
 
+.formulaire_info{
+    display: grid;
+    background: wheat;
+    border-radius: 30px;
+    justify-content: center;
+    gap: 5%;
+    padding: 0% 20%;
+}
 
+.formulaire_info input{
+    background: #FFECD3;
+    height: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    padding: 10px;
+    width: 100%;
+}
 
+#bloc_prenom { 
+    grid-area: 1 / 1 / 2 / 2; 
+}
 
+#bloc_nom { 
+    grid-area: 1 / 2 / 2 / 3; 
+}
+
+#bloc_email { 
+    grid-area: 2 / 1 / 3 / 3; 
+}
+
+#bloc_tel { 
+    grid-area: 3 / 1 / 4 / 3; 
+}
+
+#bloc_adresse { 
+    grid-area: 4 / 1 / 5 / 3; 
+}
+
+#bloc_ville { 
+    grid-area: 5 / 1 / 6 / 2; 
+}
+
+#bloc_code_postal { 
+    grid-area: 5 / 2 / 6 / 3; 
+}
 
 
 

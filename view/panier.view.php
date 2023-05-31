@@ -80,7 +80,7 @@
         <div class="group_produit">
             <img src="public/images/box/box_normandie.png">
             <div class="noms_bieres">
-                <label for="bieres">Normande</label>
+                <label for="bieres">Normandie</label>
                 <input type="number" id="box_normande" name="box_normande" min="0" max="10">
             </div>
         </div>
@@ -88,7 +88,7 @@
         <div class="group_produit">
             <img src="public/images/box/box_occitanie.png">
             <div class="noms_bieres">
-                <label for="bieres">Occitane</label>
+                <label for="bieres">Occitanie</label>
                 <input type="number" id="box_occitane" name="box_occitane" min="0" max="10">
             </div>
         </div>
@@ -125,37 +125,51 @@
             </div>
         </div>
 
-    </form>
+    </form> 
 </div>
 
+<h6>Rappel : Pour le moment toutes nos bières coûtent 4,50 € et nos box 11,90 €</h6>
 
 <form class="formulaire_info" action="lapage.php">
+    <div id="bloc_prenom">
+        <label for="prenom">Prénom</label><br>
+        <input type="text" id="prenom" name="prenom" placeholder="Prénom"><br>
+    </div>
 
-  <label for="prenom">Prénom</label><br>
-  <input type="text" id="prenom" name="prenom" placeholder="Prénom"><br>
-  
-  <label for="nom">Nom</label><br>
-  <input type="text" id="nom" name="nom" placeholder="Nom"><br>
-  
-  <label for="email">Email</label><br>
-  <input type="email" id="email" name="email" placeholder="xxx.xxxx@gmail.com"><br>
-  
-  <label for="tel">Téléphone</label><br>
-  <input type="tel" id="tel" name="tel" placeholder="XX XX XX XX XX"><br>
-  
-  <label for="adresse">Adresse</label><br>
-  <input type="text" id="adresse" name="adresse" placeholder="12 avenue des Lys"><br>
-  
-  <label for="ville">Ville</label><br>
-  <input type="text" id="ville" name="ville" placeholder="Maville"><br>
-  
-  <label for="code_postal">Code Postal</label><br>
-  <input type="text" id="code_postal" name="code_postal" placeholder="XX XXX"><br>
-  
-  <div>
-      <input type="checkbox" id="consent" name="consent" unchecked>
-      <label for="scales">En cochant cette case, j'affirme avoir lu et accepté la politique de confidentialité</label>
-  </div>
+    <div id="bloc_nom">
+        <label for="nom">Nom</label><br>
+        <input type="text" id="nom" name="nom" placeholder="Nom"><br>
+    </div>
+
+    <div id="bloc_email" >
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" placeholder="xxx.xxxx@gmail.com"><br>
+    </div>
+
+    <div id="bloc_tel">
+        <label for="tel">Téléphone</label><br>
+        <input type="tel" id="tel" name="tel" placeholder="XX XX XX XX XX"><br>
+    </div>
+
+    <div id="bloc_adresse">
+        <label for="adresse">Adresse</label><br>
+        <input type="text" id="adresse" name="adresse" placeholder="12 avenue des Lys"><br>
+    </div>
+
+    <div id="bloc_ville">
+        <label for="ville">Ville</label><br>
+        <input type="text" id="ville" name="ville" placeholder="Maville"><br>
+    </div>
+    
+    <div id="bloc_code_postal">
+        <label for="code_postal">Code Postal</label><br>
+        <input type="text" id="code_postal" name="code_postal" placeholder="XX XXX"><br>
+    </div>
+
+    <div>
+        <input type="checkbox" id="consent" name="consent" unchecked>
+        <label for="scales">En cochant cette case, j'affirme avoir lu et accepté la politique de confidentialité</label>
+    </div>
 
   <input type="submit" value="Submit">
 </form> 
