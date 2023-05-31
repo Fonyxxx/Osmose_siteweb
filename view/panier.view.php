@@ -7,27 +7,61 @@
 <div class="forms_haut">
     <form class="formulaire_bieres_box" id="form_bieres">
 
-        <label for="bieres">La Grand-Est</label>
-        <input type="number" id="grand-est" name="grand-est" min="0" max="10">
+        <div class="group_produit"> 
+            <img src="public/images/bieres/grand_est.png">
+            <div class="noms_bieres">
+                <label for="bieres">La Grand-Est</label>
+                <input type="number" id="grand-est" name="grand-est" min="0" max="10">
+            </div>
+        </div>
 
-        <label for="bieres">La Normande</label>
-        <input type="number" id="normande" name="normande" min="0" max="10">
+        <div class="group_produit">
+            <img src="public/images/bieres/normandie.png">
+            <div class="noms_bieres">
+                <label for="bieres">La Normande</label>
+                <input type="number" id="normande" name="normande" min="0" max="10">
+            </div>
+        </div>
 
-        <label for="bieres">L'Occitane</label>
-        <input type="number" id="occitane" name="occitane" min="0" max="10">
+        <div class="group_produit">
+            <img src="public/images/bieres/occitanie.png">
+            <div class="noms_bieres">
+                <label for="bieres">L'Occitane</label>
+                <input type="number" id="occitane" name="occitane" min="0" max="10">
+            </div>
+        </div>
 
-        <label for="bieres">La Corse</label>
-        <input type="number" id="corse" name="corse" min="0" max="10">
+        <div class="group_produit">
+            <img src="public/images/bieres/corse.png">
+            <div class="noms_bieres">
+                <label for="bieres">La Corse</label>
+                <input type="number" id="corse" name="corse" min="0" max="10">
+            </div>
+        </div>
 
-        <label for="bieres">La Provence Alpes Côte-d'Azur</label>
-        <input type="number" id="provence" name="provence" min="0" max="10">
+        <div class="group_produit">
+            <img src="public/images/bieres/provence.png">
+            <div class="noms_bieres">
+                <label for="bieres">La Provence Alpes Côte-d'Azur</label>
+                <input type="number" id="provence" name="provence" min="0" max="10">
+            </div>
+        </div>
 
-        <label for="bieres">La Pays de la Loire</label>
-        <input type="number" id="loire" name="loire" min="0" max="10">
+        <div class="group_produit">
+            <img src="public/images/bieres/loire.png"> 
+            <div class="noms_bieres">   
+                <label for="bieres">La Pays de la Loire</label>
+                <input type="number" id="loire" name="loire" min="0" max="10">
+            </div>
+        </div>
 
-        <label for="bieres">La Hauts-de-France</label>
-        <input type="number" id="hauts" name="hauts" min="0" max="10">
-
+        <div class="group_produit">
+            <img src="public/images/bieres/hauts.png">
+            <div class="noms_bieres">
+                <label for="bieres">La Hauts-de-France</label>
+                <input type="number" id="hauts" name="hauts" min="0" max="10">
+            </div>
+        </div>
     </form>
 
 
@@ -53,7 +87,7 @@
 
         <label for="bieres">Hauts-de-France</label>
         <input type="number" id="box_hauts" name="box_hauts" min="0" max="10">
-        
+
     </form>
 </div>
 

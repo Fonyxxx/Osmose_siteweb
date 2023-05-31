@@ -1,8 +1,82 @@
 main{
-    padding: 14%;
+    padding: 5%;
 }
 
-.intro_form{
-    padding-top: 5%;
+.intro_form{;
     text-align: center;
 }
+
+.intro_form h1{
+    font-family: 'apollo';
+    font-weight: 300;
+}
+
+.intro_form h4{
+    font-size: 1.2rem;
+    padding: 2% 10%;
+    font-family: 'apollo';
+    font-weight: 200;
+}
+
+.forms_haut{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.formulaire_bieres_box{
+    display: flex;
+    flex-direction: column;
+    background: wheat;
+    border-radius: 30px;
+}
+
+.group_produit img{
+    max-width: 100%;
+    width: 10%;
+    padding: 2%;
+}
+
+.group_produit{
+    display: flex;
+    align-items: center;
+}
+
+.noms_bieres{
+    display: flex;
+    flex-direction: column;
+}
+
+.noms_bieres input{
+    background: #FFECD3;
+    height: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 10px;
+    width: 100px;
+}
+
+.noms_bieres input:focus{
+    outline: none;
+}
+
+.noms_bieres label{
+    font-size: 1.4rem;
+    font-family: 'apollo';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
