@@ -128,9 +128,9 @@
     </form> 
 </div>
 
-<h6>Rappel : Pour le moment toutes nos bières coûtent 4,50 € et nos box 11,90 €</h6>
+<h6 id="rappel">Rappel : Pour le moment toutes nos bières coûtent 4,50 € et nos box 11,90 €</h6>
 
-<form class="formulaire_info" action="lapage.php">
+<form class="formulaire_info" id="formulaire_info" action="lapage.php">
     <div id="bloc_prenom">
         <label for="prenom">Prénom</label><br>
         <input type="text" id="prenom" name="prenom" placeholder="Prénom"><br>
@@ -166,12 +166,13 @@
         <input type="text" id="code_postal" name="code_postal" placeholder="XX XXX"><br>
     </div>
 
-    <div>
-        <input type="checkbox" id="consent" name="consent" unchecked>
-        <label for="scales">En cochant cette case, j'affirme avoir lu et accepté la politique de confidentialité</label>
+    <div id="consent_sub">
+        <div id="pol_consent">
+            <input type="checkbox" id="consent" name="consent" unchecked>
+            <label for="scales">En cochant cette case, j'affirme avoir lu et accepté la politique de confidentialité</label>
+        </div>
+        <input id="le_bouton" type="submit" value="Submit">
     </div>
-
-  <input type="submit" value="Submit">
 </form> 
 
 
