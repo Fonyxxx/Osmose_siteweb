@@ -25,34 +25,28 @@
         <h1>Les Plus Vendues</h1>
     </div>
     <div class="bieres">
-        <div class="bloc_biere">
-            <img src="public/images/bieres/grand_est.png">
-            <div class="text_bieres">
-                <h3>La Grand-Est</h3>
-                <h5>4,90 €</h5>
-            </div>
+    <?php 
+    $db = getDatabaseConnection();
+    $biereArray = getAllBiere($db);
+    shuffle($biereArray);
+    $count = 0;
+
+    foreach ($biereArray as $row) {
+        if ($count >= 4) {
+            break; // Sortir de la boucle après avoir affiché 4 bières
+        }
+    ?>
+    <div class="bloc_biere">
+        <img src="public/images/bieres/<?php echo $row['image']; ?>">
+        <div class="text_bieres">
+            <h3><?php echo $row['nom']; ?></h3>
+            <h5><?php echo $row['prix']; ?>€</h5>
         </div>
-        <div class="bloc_biere">
-            <img src="public/images/bieres/normandie.png">
-            <div class="text_bieres">
-                <h3>La Normande</h3>
-                <h5>4,90 €</h5>
-            </div>
-        </div>
-        <div class="bloc_biere">
-            <img src="public/images/bieres/occitanie.png">
-            <div class="text_bieres">
-                <h3>L'Occitane</h3>
-                <h5>4,90 €</h5>
-            </div>
-        </div>
-        <div class="bloc_biere">
-            <img src="public/images/bieres/corse.png">
-            <div class="text_bieres">
-                <h3>La Corse</h3>
-                <h5>4,90 €</h5>
-            </div>
-        </div>
+    </div>
+    <?php 
+        $count++;
+    } 
+    ?>
     </div>
 </section>
 
@@ -62,33 +56,27 @@
         <h1>Les Box</h1>
     </div>
     <div class="box">
+    <?php 
+    $db = getDatabaseConnection();
+    $boxArray = getAllBox($db);
+    shuffle($boxArray);
+    $count = 0;
+
+    foreach ($boxArray as $row) {
+        if ($count >= 4) {
+            break; // Sortir de la boucle après avoir affiché 4 bières
+        }
+    ?>
         <div class="bloc_box">
-            <img src="public/images/box/box_grand_est.png">
+            <img src="public/images/box/<?php echo $row['image']; ?>">
             <div class="text_box">
-                <h3>Grand-Est</h3>
-                <h5>11,90 €</h5>
+                <h3><?php echo $row['nom']; ?></h3>
+                <h5><?php echo $row['prix']; ?>€</h5>
             </div>
         </div>
-        <div class="bloc_box">
-            <img src="public/images/box/box_normandie.png">
-            <div class="text_box">
-                <h3>Normandie</h3>
-                <h5>11,90 €</h5>
-            </div>
-        </div>
-        <div class="bloc_box">
-            <img src="public/images/box/box_occitanie.png">
-            <div class="text_box">
-                <h3>Occitanie</h3>
-                <h5>11,90 €</h5>
-            </div>
-        </div>
-        <div class="bloc_box">
-            <img src="public/images/box/box_corse.png">
-            <div class="text_box">
-                <h3>Corse</h3>
-                <h5>11,90 €</h5>
-            </div>
-        </div>
+        <?php 
+        $count++;
+    } 
+    ?>
     </div>
 </section>
