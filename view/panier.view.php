@@ -171,7 +171,7 @@
             <input type="checkbox" id="consent" name="consent" unchecked required>
             <label for="scales">En cochant cette case, j'affirme avoir lu et accepté la politique de confidentialité</label>
         </div>
-        <input id="le_bouton" type="submit" value="Submit">
+        <input id="le_bouton" type="submit" value="Envoyer">
     </div>
 </form> 
 
