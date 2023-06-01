@@ -1,0 +1,197 @@
+main{
+    padding: 5%;
+    color: #762F26;
+}
+
+.intro_form{
+    text-align: center;
+}
+
+.intro_form h1{
+    font-family: 'apollo';
+    font-weight: 300;
+}
+
+.intro_form h4{
+    font-size: 1.2rem;
+    padding: 2% 10%;
+    font-family: 'apollo';
+    font-weight: 200;
+}
+
+.forms_haut{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    padding: 0% 15%;
+}
+
+.forms_haut h2{
+    text-align: center;
+    padding: 2%;
+    font-family: 'apollo';
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+.formulaire_bieres_box{
+    display: flex;
+    flex-direction: column;
+    background: wheat;
+    border-radius: 30px;
+    justify-content: space-around;
+}
+
+.group_produit img{
+    max-width: 100%;
+    width: 20%;
+    padding: 2%;
+}
+
+.group_produit{
+    display: flex;
+    align-items: center;
+}
+
+.noms_bieres{
+    display: flex;
+    flex-direction: column;
+}
+
+.noms_bieres input{
+    background: #FFECD3;
+    height: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    padding: 10px;
+    width: 100px;
+    box-shadow: 1px 2px 3px #9f9176;
+}
+
+.noms_bieres input:focus{
+    outline: none;
+}
+
+.noms_bieres label{
+    font-size: 1.4rem;
+    font-family: 'apollo';
+}
+
+/* LE H6 TOUT SEUL*/
+
+#rappel{
+    text-align: center;
+    padding: 2% 0% 3%;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+
+
+/*FORMULAIRES INFOS*/
+
+.formulaire_info{
+    display: grid;
+    background: wheat;
+    border-radius: 30px;
+    justify-content: center;
+    gap: 6%;
+    padding: 2% 5% 10%;
+    grid-template-columns: 1fr 1fr;
+}
+
+#formulaire_info{
+    margin: 2% 23%;
+}
+
+.formulaire_info input{
+    background: #FFECD3;
+    height: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    padding: 10px;
+    width: 100%;
+}
+
+.formulaire_info input:focus{
+    background-color: #FFECD3;
+    outline: none;
+}
+
+
+.formulaire_info label{
+    font-family: 'apollo';
+    font-size: 1.2rem;
+}
+
+#bloc_prenom { 
+    grid-area: 1 / 1 / 2 / 2; 
+}
+
+#bloc_nom { 
+    grid-area: 1 / 2 / 2 / 3; 
+}
+
+#bloc_email { 
+    grid-area: 2 / 1 / 3 / 3; 
+}
+
+#bloc_tel { 
+    grid-area: 3 / 1 / 4 / 3; 
+}
+
+#bloc_adresse { 
+    grid-area: 4 / 1 / 5 / 3; 
+}
+
+#bloc_ville { 
+    grid-area: 5 / 1 / 6 / 2; 
+}
+
+#bloc_code_postal { 
+    grid-area: 5 / 2 / 6 / 3; 
+}
+
+
+#consent_sub { 
+    grid-area: 6 / 1 / 7 / 3; 
+}
+
+#consent_sub{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#pol_consent{
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    padding: 2% 0% 4%;
+}
+
+#pol_consent label{
+    font-size: 0.9rem;
+}
+
+#le_bouton{
+    max-width: 20%;
+    height: 35px;
+    font-size: 1.2rem;
+    font-weight: 200;
+    cursor: pointer;
+    box-shadow: none;
+    color: #762F26;
+}
+
+#le_bouton:hover{
+    transform: scale(1.1);
+    transition: ease .5s;
+}
+
+#consent{
+    cursor: pointer;
+}
+

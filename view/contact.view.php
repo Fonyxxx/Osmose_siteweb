@@ -1,4 +1,5 @@
 
+
 <div class="info">
 	<h2>Informations</h2>
 	<p><strong>Adresse :</strong> 240 rue de la Motte, 77550 Moissy Cramayel</p>
@@ -39,4 +40,49 @@
 		<a href="https://www.facebook.com/people/Osmose/100091750453928/"><i class='bx bxl-facebook-square bx-lg bx-tada-hover'></i></a>
 		<a href="https://www.instagram.com/brasserie.osmose/"><i class='bx bxl-instagram bx-lg bx-tada-hover' ></i></a>
 		<a href="https://www.tiktok.com/@brasserie.osmose" ><i class='bx bxl-tiktok bx-lg bx-tada-hover' ></i></a>
+
 	</div>
+
+
+		
+	<div id="bloc_droit_contact">
+
+		<h2>Prendre contact</h2>
+
+		<form id="form_contact">
+
+			<div class="tit_form">
+				<label>Nom</label>
+				<input type="text" name="nom" required>
+			</div>
+
+			<div class="tit_form">
+				<label>Prénom</label>
+				<input type="text" name="Prénom" required>
+			</div>
+
+			<div class="tit_form">
+				<label>Email</label>
+				<input type="email" name="email" required>
+			</div>
+
+			<div class="tit_form">
+				<label>Message</label>
+				<input placeholder="Saisissez ici" name="message" required>
+			</div>
+
+			<div id="class_bouton_envoyer">
+				<input id="envoyer_contact" type="submit" value="Envoyer">
+			</div>
+		</form>
+		
+		<div>
+			<h3> Suivez-nous</h3>
+			<section id="suivez_nous_items">
+			<a href="https://www.facebook.com/people/Osmose/100091750453928/"><i class='bx bxl-facebook-square bx-lg bx-tada-hover'></i></a>
+			<a href="https://www.instagram.com/brasserie.osmose/"><i class='bx bxl-instagram bx-lg bx-tada-hover' ></i></a>
+			<a href="https://www.tiktok.com/@brasserie.osmose" ><i class='bx bxl-tiktok bx-lg bx-tada-hover' ></i></a>
+		</div>
+	</div>
+
+</div>

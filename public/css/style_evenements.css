@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Apollo';
+    src: url('../fonts/APOLLO.otf'); 
+}
+
+@font-face {
+    font-family: 'Josefin'; 
+    src: url('../fonts/JosefinSans-Regular.ttf'); 
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background-color:#FFECD2;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color:rgb(5, 37, 6);
+    font-family: "Apollo";
+}
+
+.case1, .case2, .case3 {
+    margin: 50px 50px;
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
