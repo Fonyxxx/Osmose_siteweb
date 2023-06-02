@@ -3,55 +3,19 @@
         <h1>Nos box</h1>
     </div>
     <div class="box">
+    <?php 
+        $db = getDatabaseConnection();
+        $boxArray = getAllBox($db);
+        foreach ($boxArray as $row) {
+        ?>
         <div class="bloc_box">
-            <img src="public/images/box/box_grand_est.png">
+            <img src="public/images/box/<?php echo $row['image']; ?>">
             <div class="text_bieres">
-                <h3>Grand-Est</h3>
-                <h5>11,90 €</h5>
+                <h3><?php echo $row['nom']; ?></h3>
+                <h5><?php echo $row['prix']; ?>€</h5>
             </div>
         </div>
-        <div class="bloc_box">
-            <img src="public/images/box/box_normandie.png">
-            <div class="text_bieres">
-                <h3>Normande</h3>
-                <h5>11,90 €</h5>
-            </div>
-        </div>
-        <div class="bloc_box">
-            <img src="public/images/box/box_occitanie.png">
-            <div class="text_bieres">
-                <h3>Occitane</h3>
-                <h5>11,90 €</h5>
-            </div>
-        </div>
-        <div class="bloc_box">
-            <img src="public/images/box/box_corse.png">
-            <div class="text_bieres">
-                <h3>Corse</h3>
-                <h5>11,90 €</h5>
-            </div>
-        </div>
-        <div class="bloc_box">
-            <img src="public/images/box/box_pays_loire.png">
-            <div class="text_bieres">
-                <h3>Pays-de-la-Loire</h3>
-                <h5>11,90 €</h5>
-            </div>
-        </div>
-        <div class="bloc_box">
-            <img src="public/images/box/box_hauts_france.png">
-            <div class="text_bieres">
-                <h3>Hauts-de-France</h3>
-                <h5>11,90 €</h5>
-            </div>
-        </div>
-        <div class="bloc_box">
-            <img src="public/images/box/box_provence.png">
-            <div class="text_bieres">
-                <h3>Provence-Alpes-Côte d’Azur</h3>
-                <h5>11,90 €</h5>
-            </div>
-        </div>
+        <?php } ?>
     </div>
 </section>
 

@@ -3,55 +3,19 @@
         <h1>Nos bières</h1>
     </div>
     <div class="bieres">
+        <?php 
+        $db = getDatabaseConnection();
+        $biereArray = getAllBiere($db);
+        foreach ($biereArray as $row) {
+        ?>
         <div class="bloc_biere">
-            <img src="public/images/bieres/grand_est.png">
+            <img src="public/images/bieres/<?php echo $row['image']; ?>">
             <div class="text_bieres">
-                <h3>La Grand-Est</h3>
-                <h5>4,90 €</h5>
+                <h3><?php echo $row['nom']; ?></h3>
+                <h5><?php echo $row['prix']; ?>€</h5>
             </div>
         </div>
-        <div class="bloc_biere">
-            <img src="public/images/bieres/normandie.png">
-            <div class="text_bieres">
-                <h3>La Normande</h3>
-                <h5>4,90 €</h5>
-            </div>
-        </div>
-        <div class="bloc_biere">
-            <img src="public/images/bieres/occitanie.png">
-            <div class="text_bieres">
-                <h3>L'Occitane</h3>
-                <h5>4,90 €</h5>
-            </div>
-        </div>
-        <div class="bloc_biere">
-            <img src="public/images/bieres/corse.png">
-            <div class="text_bieres">
-                <h3>La Corse</h3>
-                <h5>4,90 €</h5>
-            </div>
-        </div>
-        <div class="bloc_biere">
-            <img src="public/images/bieres/loire.png">
-            <div class="text_bieres">
-                <h3>La Pays-de-la-Loire</h3>
-                <h5>4,90 €</h5>
-            </div>
-        </div>
-        <div class="bloc_biere">
-            <img src="public/images/bieres/hauts.png">
-            <div class="text_bieres">
-                <h3>La Hauts-de-France</h3>
-                <h5>4,90 €</h5>
-            </div>
-        </div>
-        <div class="bloc_biere">
-            <img src="public/images/bieres/provence.png">
-            <div class="text_bieres">
-                <h3>La Provence-Alpes-Côte d’Azur</h3>
-                <h5>4,90 €</h5>
-            </div>
-        </div>
+        <?php } ?>
     </div>
 </section>
 

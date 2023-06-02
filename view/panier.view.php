@@ -2,129 +2,40 @@
     <h1>Panier</h1>
     <h4>Remplissez ces formulaires en choisissant la quantité afin de prendre votre commande !</h4>
 </div>
-
-
 <div class="forms_haut">
     <form class="formulaire_bieres_box" id="form_bieres">
         <h2>Nos Bières</h2>
-
+        <?php 
+        $db = getDatabaseConnection();
+        $biereArray = getAllBiere($db);
+        foreach ($biereArray as $row) {
+        ?>
         <div class="group_produit"> 
-            <img src="public/images/bieres/grand_est.png">
+            <img src="public/images/bieres/<?php echo $row['image']; ?>">
             <div class="noms_bieres">
-                <label for="bieres">La Grand-Est</label>
-                <input type="number" id="grand-est" name="grand-est" min="0" max="10" placeholder="0">
+                <label for="bieres"><?php echo $row['nom']; ?></label>
+                <input type="number" id="<?php echo $row['nom']; ?>" name="<?php echo $row['nom']; ?>" data-id="<?php echo $row['id_biere']; ?> min="0" max="10" placeholder="0">
             </div>
         </div>
-
-        <div class="group_produit">
-            <img src="public/images/bieres/normandie.png">
-            <div class="noms_bieres">
-                <label for="bieres">La Normande</label>
-                <input type="number" id="normande" name="normande" min="0" max="10" placeholder="0">
-            </div>
-        </div>
-
-        <div class="group_produit">
-            <img src="public/images/bieres/occitanie.png">
-            <div class="noms_bieres">
-                <label for="bieres">L'Occitane</label>
-                <input type="number" id="occitane" name="occitane" min="0" max="10" placeholder="0">
-            </div>
-        </div>
-
-        <div class="group_produit">
-            <img src="public/images/bieres/corse.png">
-            <div class="noms_bieres">
-                <label for="bieres">La Corse</label>
-                <input type="number" id="corse" name="corse" min="0" max="10" placeholder="0">
-            </div>
-        </div>
-
-        <div class="group_produit">
-            <img src="public/images/bieres/provence.png">
-            <div class="noms_bieres">
-                <label for="bieres">La Provence Alpes Côte-d'Azur</label>
-                <input type="number" id="provence" name="provence" min="0" max="10" placeholder="0">
-            </div>
-        </div>
-
-        <div class="group_produit">
-            <img src="public/images/bieres/loire.png"> 
-            <div class="noms_bieres">   
-                <label for="bieres">La Pays de la Loire</label>
-                <input type="number" id="loire" name="loire" min="0" max="10" placeholder="0">
-            </div>
-        </div>
-
-        <div class="group_produit">
-            <img src="public/images/bieres/hauts.png">
-            <div class="noms_bieres">
-                <label for="bieres">La Hauts-de-France</label>
-                <input type="number" id="hauts" name="hauts" min="0" max="10" placeholder="0">
-            </div>
-        </div>
+        <?php } ?>
     </form>
 
 
     <form class="formulaire_bieres_box" id="form_box">
         <h2>Nos Box</h2>
-
-    <div class="group_produit"> 
-            <img src="public/images/box/box_grand_est.png">
+        <?php 
+        $db = getDatabaseConnection();
+        $boxArray = getAllBox($db);
+        foreach ($boxArray as $row) {
+        ?>
+        <div class="group_produit"> 
+            <img src="public/images/box/<?php echo $row['image']; ?>">
             <div class="noms_bieres">
-                <label for="bieres">Grand-Est</label>
-                <input type="number" id="box_grand-est" name="box_grand-est" min="0" max="10" placeholder="0">
+                <label for="bieres"><?php echo $row['nom']; ?></label>
+                <input type="number" id="<?php echo $row['nom']; ?>" name="<?php echo $row['nom']; ?>" data-id="<?php echo $row['id_box']; ?> min="0" max="10" placeholder="0">
             </div>
         </div>
-
-        <div class="group_produit">
-            <img src="public/images/box/box_normandie.png">
-            <div class="noms_bieres">
-                <label for="bieres">Normandie</label>
-                <input type="number" id="box_normande" name="box_normande" min="0" max="10" placeholder="0">
-            </div>
-        </div>
-
-        <div class="group_produit">
-            <img src="public/images/box/box_occitanie.png">
-            <div class="noms_bieres">
-                <label for="bieres">Occitanie</label>
-                <input type="number" id="box_occitane" name="box_occitane" min="0" max="10" placeholder="0">
-            </div>
-        </div>
-
-        <div class="group_produit">
-            <img src="public/images/box/box_corse.png">
-            <div class="noms_bieres">
-                <label for="bieres">Corse</label>
-                <input type="number" id="box_corse" name="box_corse" min="0" max="10" placeholder="0">
-            </div>
-        </div>
-
-        <div class="group_produit">
-            <img src="public/images/box/box_provence.png">
-            <div class="noms_bieres">
-                <label for="bieres">Provence Alpes Côte-d'Azur</label>
-                <input type="number" id="box_provence" name="box_provence" min="0" max="10" placeholder="0">
-            </div>
-        </div>
-
-        <div class="group_produit">
-            <img src="public/images/box/box_pays_loire.png"> 
-            <div class="noms_bieres">   
-                <label for="bieres">Pays de la Loire</label>
-                <input type="number" id="box_loire" name="box_loire" min="0" max="10" placeholder="0">
-            </div>
-        </div>
-
-        <div class="group_produit">
-            <img src="public/images/box/box_hauts_france.png">
-            <div class="noms_bieres">
-                <label for="bieres">Hauts-de-France</label>
-                <input type="number" id="box_hauts" name="box_hauts" min="0" max="10" placeholder="0">
-            </div>
-        </div>
-
+        <?php } ?>
     </form> 
 </div>
 
