@@ -62,7 +62,7 @@ nav {
     width: 10%;
 }
 
-.lespages:hover {
+.lespages a:hover {
     padding-bottom: 10px ;
     cursor: pointer;
     transition: 0.3s;

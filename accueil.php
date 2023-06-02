@@ -1,6 +1,7 @@
 <?php 
 $page_titre = "Accueil";
 $css = "public/css/style_accueil.css";
+
 require_once 'config.php';
 require_once 'app/model/dataConnection.php';
 require_once 'app/model/bieres.model.php';
