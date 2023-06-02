@@ -1,6 +1,6 @@
 <body>
 <header>
-</header>s
+</header>
 
     <main>
         <div id="haut_gauche"><img src="public/images/haut_gauche.svg"></div>
