@@ -11,7 +11,6 @@ $biereArray = getAllBiere($db);
 $boxArray = getAllBox($db);
 
 ob_start();
-
 include "view/panier.view.php"; 
 $content = ob_get_clean();
 include "view/common/layout.php";

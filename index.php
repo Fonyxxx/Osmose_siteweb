@@ -1,8 +1,8 @@
 <?php 
 $page_titre = "Age";
-$css = "public/css/style_age.css";
+$css = "public/css/style_index.css";
 ob_start();
 
-include "view/age.view.php"; 
+include "view/index.view.php"; 
 $content = ob_get_clean();
 include "view/common/layout.php";
