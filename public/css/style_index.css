@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background: #32422E;
     color: #FFF3E0;
@@ -15,4 +16,57 @@ body{
 
 
 
+=======
+/* BACKGROUND */
+
+body{
+    background-color: #32422E;
+    height: 100vh;
+}
+
+#haut_gauche{
+    top: 0;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    max-width: 100%;
+}
+
+#bas_droite {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    max-width: 100%;
+}
+
+
+/* CONTENT */
+
+#cadre{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bloc_content{
+    width: 10rem;
+}
+
+/*
+#contenu{
+    display: flex;
+    border: #FFE7B6 solid 2px;
+    border-radius: 17px;
+    justify-content: center;
+    align-items: center;
+    margin: 20%;
+}
+
+#cadre{
+    display: flex;
+    flex-direction: column;
+}
+>>>>>>> 0c4e6b29ca837a7f06017bf165c6dae5dfd77b1e
 
