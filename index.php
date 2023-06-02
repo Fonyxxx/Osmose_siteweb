@@ -5,4 +5,4 @@ ob_start();
 
 include "view/index.view.php"; 
 $content = ob_get_clean();
-include "view/common/layout.php";
+include "view/common/layout2.php";

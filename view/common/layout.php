@@ -1,4 +1,5 @@
-<?php include 'view/common/header.php';
+<?php include 'view/common/header_invisible.php';
+include 'view/common/head_visible.php';
 
 echo $content ;
 
