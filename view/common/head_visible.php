@@ -1,4 +1,4 @@
-<body>
+<body style="background-color: #FFF3E0;">
     <header>
         <nav>
 		    <div class="logo">
