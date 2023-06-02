@@ -6,8 +6,6 @@
     <form class="formulaire_bieres_box" id="form_bieres">
         <h2>Nos Bières</h2>
         <?php 
-        $db = getDatabaseConnection();
-        $biereArray = getAllBiere($db);
         foreach ($biereArray as $row) {
         ?>
         <div class="group_produit"> 
@@ -23,9 +21,7 @@
 
     <form class="formulaire_bieres_box" id="form_box">
         <h2>Nos Box</h2>
-        <?php 
-        $db = getDatabaseConnection();
-        $boxArray = getAllBox($db);
+        <?php
         foreach ($boxArray as $row) {
         ?>
         <div class="group_produit"> 
