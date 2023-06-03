@@ -1,39 +1,94 @@
-body{
-    background: #32422E;
-    color: #FFF3E0;
+/* BACKGROUND */
+
+body {
+    background-color: #32422E;
+    background-image: url('../images/haut_gauche.svg'),url('../images/bas_droite.svg');
+    background-size: 25%;
+    background-position-x: left, right;
+    background-position-y: top,bottom;
+    background-repeat: no-repeat;
+    color:var(--main-color--);
+}
+
+
+main{
     height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#cadre {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid var(--main-color--);
+    border-radius: 25px;
+}
+
+.blocs_content h1 {
+    padding-bottom: 40px;
+    font-size: 30px;
+    font-family: "Apollo";
+}
+
+.blocs_content h2 {
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family: "Apollo";
+}
+
+
+#boutons_el {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#boutons {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+
+#bouton_oui {
+    width: 35%;
+    padding: 5px 0 5px 0;
+}
+
+
+#bouton_non {
+    width: 35%;
+    padding: 5px 0 5px 0;
+}
+
+
+#refus_age {
+    padding: 10px;
 }
 
 
 
 
 
-/* BACKGROUND */
 
+
+/*
 body{
     background-color: #32422E;
     height: 100vh;
-}
-
-#haut_gauche{
-    top: 0;
-    position: absolute;
-    left: 0;
-    z-index: -1;
-    max-width: 100%;
-}
-
-#bas_droite {
-    bottom: 0;
-    position: absolute;
-    right: 0;
-    z-index: -1;
-    max-width: 100%;
-}
-
+}*/
 
 /* CONTENT */
-
+/*
 #cadre{
     height: 40%;
     display: flex;
@@ -44,7 +99,7 @@ body{
 .bloc_content{
     width: 10rem;
 }
-
+*/
 /*
 #contenu{
     display: flex;

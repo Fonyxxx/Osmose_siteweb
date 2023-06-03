@@ -3,30 +3,30 @@
 </header>
 
     <main>
-        <div id="haut_gauche"><img src="public/images/haut_gauche.svg"></div>
         <div id="cadre">
             <div class="blocs_content" id="contenu">
 
-                <h1>Bienvenue sur le site d'Osmose</h1>
+                <h1>BIENVENUE SUR LE SITE D'OSMOSE !</h1>
                 <h2>Avez-vous plus de 18 ans ?</h2>
             
                 <div id="boutons_el">
-
-                    <input class="bouton" id="bouton_oui" type="button" onclick="location.href='accueil.php'" value="OUI";/>
-                    <input class="bouton" id="bouton_non" type="button" onclick="refus()" value="NON";/>
-
+                    <div id="boutons">
+                        <input class="bouton" id="bouton_oui" type="button" onclick="location.href='accueil.php'" value="OUI";/>
+                        <input class="bouton" id="bouton_non" type="button" onclick="refus()" value="NON";/>
+                    </div>
+                    <div>
                     <p id="refus_age"></p>
-                    
+                    </div>
                 </div>
             </div>
-            
-            <div class="blocs_content" id="bas_age">
+        </div>   
+
+        <div class="blocs_content" id="bas_age">
             <h5>L’abus d’alcool est dangereux pour la santé, à consommer avec modération</h5>
-            </div>
         </div>
+        
 
 
-        <div id="bas_droite"><img src="public/images/bas_droite.svg" id="test_position"></div>
     </main>
 </body>
 
