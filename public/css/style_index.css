@@ -34,12 +34,14 @@ main{
     padding-bottom: 40px;
     font-size: 30px;
     font-family: "Apollo";
+    font-weight: 400;
 }
 
 .blocs_content h2 {
     padding-bottom: 20px;
     font-size: 20px;
     font-family: "Apollo";
+    font-weight: 400;
 }
 
 
@@ -62,22 +64,37 @@ main{
 #bouton_oui {
     width: 35%;
     padding: 5px 0 5px 0;
+    color: #32422E;
+    font-size: 1.3rem;
 }
 
+.bouton{
+    border-radius: 7px;
+    font-weight: 500;
+}
 
 #bouton_non {
     width: 35%;
     padding: 5px 0 5px 0;
+    color: #762F26;
+    font-size: 1.3rem;
 }
 
 
 #refus_age {
     padding: 10px;
+    color: #d53f2c;
 }
 
+#bas_age{
+    bottom: 3%;
+    position: fixed;
+}
 
-
-
+#bas_age h5{
+    font-weight: 100;
+    font-size: 1.01rem;
+}
 
 
 
