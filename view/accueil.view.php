@@ -10,7 +10,7 @@
         </div>  
     </section>
     <div class="bouton_place">
-        <a href="#" id="bouton_decouvrir">Découvrir</a>
+        <a href="bieres.php" id="bouton_decouvrir">Découvrir</a>
     </div>
 </section>
 
