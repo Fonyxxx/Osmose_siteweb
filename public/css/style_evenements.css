@@ -1,40 +1,37 @@
-@font-face {
-    font-family: 'Apollo';
-    src: url('../fonts/APOLLO.otf'); 
+#all_event{
+    padding: 3% 0%;
 }
 
-@font-face {
-    font-family: 'Josefin'; 
-    src: url('../fonts/JosefinSans-Regular.ttf'); 
-}
-
-
-body {
-    padding: 0;
-    margin: 0;
-    height: 100%;
-    background-color:#FFECD2;
-}
-
-.container {
-    width: 100%;
+.bloc_event{
     display: flex;
-    align-items: center;
     flex-direction: column;
+    padding: 5% 10%;
+    align-items: center;
 }
 
-h1 {
-    font-size: 40px;
-    text-align: center;
-    color:rgb(5, 37, 6);
-    font-family: "Apollo";
+.bloc_event h1{
+    font-family: 'Apollo';
+    font-weight: 300;
 }
 
-.case1, .case2, .case3 {
-    margin: 50px 50px;
-    width: 100%;
-    margin-bottom: 50px;
+.contenu_event{
     display: flex;
-    justify-content: space-between;
-
+    flex-direction: row;
+    gap: 5%;
+    max-width: 90%;
+    padding: 5% 0%;
+    align-items: center;
 }
+
+.contenu_event img{
+    max-width: 100%;
+    width: 35%;
+}
+
+.contenu_event p{
+    text-align: justify;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+
