@@ -28,17 +28,17 @@
 
 			<div class="tit_form">
 				<label>Nom</label>
-				<input type="text" name="nom" required>
+				<input placeholder="Nom" type="text" name="nom" required>
 			</div>
 
 			<div class="tit_form">
 				<label>Prénom</label>
-				<input type="text" name="Prénom" required>
+				<input placeholder="Prénom" type="text" name="Prénom" required>
 			</div>
 
 			<div class="tit_form">
 				<label>Email</label>
-				<input type="email" name="email" required>
+				<input placeholder="xxxxx@xxx.com" type="email" name="email" required>
 			</div>
 
 			<div class="tit_form">

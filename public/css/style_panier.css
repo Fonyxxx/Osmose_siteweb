@@ -176,7 +176,7 @@ main{
     font-size: 0.9rem;
 }
 
-#le_bouton{
+#bouton_panier{
     max-width: 20%;
     height: 35px;
     font-size: 1.2rem;
@@ -186,7 +186,7 @@ main{
     color: #762F26;
 }
 
-#le_bouton:hover{
+#bouton_panier:hover{
     transform: scale(1.1);
     transition: ease .5s;
 }

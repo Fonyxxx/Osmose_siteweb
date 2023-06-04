@@ -50,7 +50,7 @@
 
     <div id="bloc_email" >
         <label for="email">Email</label><br>
-        <input type="email" id="email" name="email" placeholder="xxx.xxxx@gmail.com" required><br>
+        <input type="email" id="email" name="email" placeholder="xxx.xxxx@xxx.com" required><br>
     </div>
 
     <div id="bloc_tel">
@@ -78,7 +78,7 @@
             <input type="checkbox" id="consent" name="consent" unchecked required>
             <label for="scales">En cochant cette case, j'affirme avoir lu et accepté la politique de confidentialité</label>
         </div>
-        <input id="le_bouton" type="submit" value="Envoyer">
+        <input id="bouton_panier" type="submit" value="Envoyer">
     </div>
 </form> 
 
