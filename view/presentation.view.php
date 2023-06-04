@@ -19,7 +19,7 @@
 
             <div class="image_fond">
                 <img class="image_biere" src="public/images/bieres_seules/<?php echo $row['image'];?>" alt="">
-                <img src="public/images/fonds/fond_grand_est.svg" alt="">
+                <img id ="img_background" src="public/images/fonds/fond_grand_est.svg" alt="">
             </div>
             
             <div class="elements_biere">

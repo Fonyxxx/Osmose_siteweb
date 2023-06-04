@@ -6,10 +6,10 @@
             <h2>Notre marque</h2>
             <div class="line"></div>
             <ul>
-                <li><a href="#">A propos</a></li>
-                <li><a href="#">Contactez-nous</a></li>
-                <li><a href="#">Nos événements</a></li>
-                <li><a href="#">Nos produits</a></li>
+                <li><a href="brasserie.php">A propos</a></li>
+                <li><a href="contact.php">Contactez-nous</a></li>
+                <li><a href="evenements.php">Nos événements</a></li>
+                <li><a href="bieres.php">Nos produits</a></li>
             </ul>
         </div>
         <div class="liste-footer">

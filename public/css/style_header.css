@@ -45,6 +45,11 @@ nav {
     width: 9rem;
 }
 
+.logo img:hover{
+    transform: scale(1.1);
+    transition: ease .4s;
+}
+
 .navlist {
     display: flex;
     padding: 0;
@@ -66,8 +71,10 @@ nav {
 .lespages a:hover {
     padding-bottom: 10px ;
     cursor: pointer;
-    transition: 0.3s;
+    transition: ease .4s;
+    text-decoration: underline;
 }
+
 
 .icons_header {
     width: 3rem;
@@ -79,3 +86,7 @@ nav {
     color:rgb(5, 37, 6);
 }
 
+.icons_header a:hover{
+    font-size: larger;
+    transition: ease .3s;
+}
