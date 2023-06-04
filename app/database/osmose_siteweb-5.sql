@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : localhost:8889
--- Généré le : jeu. 01 juin 2023 à 01:20
+-- Généré le : sam. 03 juin 2023 à 21:43
 -- Version du serveur : 5.7.34
 -- Version de PHP : 8.0.8
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de données : `Osmose_siteweb`
+-- Base de données : `osmose_siteweb`
 --
 
 -- --------------------------------------------------------
@@ -43,13 +43,13 @@ CREATE TABLE `biere` (
 --
 
 INSERT INTO `biere` (`id_biere`, `nom`, `type`, `aromes`, `prix`, `description`, `accord_parfait`, `image`) VALUES
-(1, 'La Grand-Est', 'Blonde', 'Miel/Sapin', '4.90', "Brassée dans le respect des traditions, cette bière artisanale est le résultat d\'un savoir-faire séculaire. Ses arômes complexes, sa texture soyeuse et sa finition propre en font une véritable œuvre d'art à savourer avec délice. Taux d'alcool de 6,37%.", 'Munster', 'grand-est.png'),
-(2, 'La Hauts-De-France', 'Brune', 'Orange/Quiquina', '4.90', "Cette bière vous transporte dans un univers chaleureux et raffiné, avec ses arômes riches de malts torréfiés, de notes d'agrumes sucrés et d'une subtile amertume herbacée. Tauxd'alcool de 7,1%", 'Mimolette', 'hauts.png'),
-(3, 'La Pays de La Loire', 'Blonde', 'Menthe/Citron', '4.90', "Dès la première gorgée, laissez-vous envelopper par un bouquet aromatique rafraîchissant, où la menthe vivifiante et le citron acidulé s'entremêlent harmonieusement. Tauxd'alcool de 5%", 'Emmental', 'loire.png'),
-(4, 'La Corse', 'Blonde', 'Clémentine/Amande', '4.90', "Une bière blonde à la fois rafraîchissante et légère, parfaite pour éveiller vos sens avec sa saveur fruitée et sa touche d'amande enivrante. Taux d'alcool de 6%", 'Fromage de la corse', 'corse.png'),
-(5, "La Provence Alpes Côte-D'Azur", 'Blonde', 'Thym/Pêche', '4.90', "Une combinaison audacieuse de saveurs qui éveillera vos papilles avec ses notes herbacées et fruitées. Une bière blonde légère et parfumée, parfaite pour les moments de détente et les instants de plaisir. Taux d'alcool de 4%", 'Banon', 'provence.png'),
-(6, 'La Normande', 'Blonde', 'Abricot/Basilic', '4.90', "Rafraîchissante et légère, cette bière blonde offre une expérience gustative équilibrée et surprenante. Parfaite pour les amateurs de bières originales à la recherche de nouvelles sensations. Taux d'alcool de 5%", 'Camembert', 'normandie.png'),
-(7, "L'Occitane", 'Ambrée', 'Cerise/Menthe', '4.90', "Cette bière ambrée vous transporte dans un monde de délices, avec son équilibre parfait entre des arômes fruités et une touche herbacée. Laissez-vous charmer par sa robe ambrée et ses saveurs harmonieuses qui éveilleront vos sens à chaque gorgée. Taux d'alcool de 4,2%", 'Tomme', 'occitanie.png');
+(1, 'La Grand-Est', 'Blonde', 'Miel/Sapin', '4.90', 'Brassée dans le respect des traditions, cette bière artisanale est le résultat d\'un savoir-faire séculaire. Ses arômes complexes, sa texture soyeuse et sa finition propre en font une véritable œuvre d\'art à savourer avec délice. Taux d\'alcool de 6,37%.', 'Munster', 'grand-est.png'),
+(2, 'La Hauts-De-France', 'Brune', 'Orange/Quiquina', '4.90', 'Cette bière vous transporte dans un univers chaleureux et raffiné, avec ses arômes riches de malts torréfiés, de notes d\'agrumes sucrés et d\'une subtile amertume herbacée. Tauxd\'alcool de 7,1%', 'Mimolette', 'hauts.png'),
+(3, 'La Pays de La Loire', 'Blonde', 'Menthe/Citron', '4.90', 'Dès la première gorgée, laissez-vous envelopper par un bouquet aromatique rafraîchissant, où la menthe vivifiante et le citron acidulé s\'entremêlent harmonieusement. Tauxd\'alcool de 5%', 'Emmental', 'loire.png'),
+(4, 'La Corse', 'Blonde', 'Clémentine/Amande', '4.90', 'Une bière blonde à la fois rafraîchissante et légère, parfaite pour éveiller vos sens avec sa saveur fruitée et sa touche d\'amande enivrante. Taux d\'alcool de 6%', 'Brocciu', 'corse.png'),
+(5, 'La Provence Alpes Côte-D\'Azur', 'Blonde', 'Thym/Pêche', '4.90', 'Une combinaison audacieuse de saveurs qui éveillera vos papilles avec ses notes herbacées et fruitées. Une bière blonde légère et parfumée, parfaite pour les moments de détente et les instants de plaisir. Taux d\'alcool de 4%', 'Banon', 'provence.png'),
+(6, 'La Normande', 'Blonde', 'Abricot/Basilic', '4.90', 'Rafraîchissante et légère, cette bière blonde offre une expérience gustative équilibrée et surprenante. Parfaite pour les amateurs de bières originales à la recherche de nouvelles sensations. Taux d\'alcool de 5%', 'Camembert', 'normandie.png'),
+(7, 'L\'Occitane', 'Ambrée', 'Cerise/Menthe', '4.90', 'Cette bière ambrée vous transporte dans un monde de délices, avec son équilibre parfait entre des arômes fruités et une touche herbacée. Laissez-vous charmer par sa robe ambrée et ses saveurs harmonieuses qui éveilleront vos sens à chaque gorgée. Taux d\'alcool de 4,2%', 'Tomme des Pyrénées', 'occitanie.png');
 
 -- --------------------------------------------------------
 
@@ -64,6 +64,19 @@ CREATE TABLE `box` (
   `description` text,
   `image` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Déchargement des données de la table `box`
+--
+
+INSERT INTO `box` (`id_box`, `nom`, `prix`, `description`, `image`) VALUES
+(1, 'Grand-Est', '11.90', 'Cette box contient une biere La Grand-Est aromatisée au miel et au sapin ainsi qu\'un Munster pour un accord pafait.', 'box_grand_est.png'),
+(2, 'Hauts-de-France', '11.90', 'Cette box contient une biere La Hauts-de-France aromatisée à l\'orange et au quinquina ainsi qu\'une Mimolette pour un accord pafait.', 'box_hauts_france.png'),
+(3, 'Pays de la Loire', '11.90', 'Cette box contient une biere La Pays de la Loire aromatisée à la menthe et au citron ainsi qu\'un Emmental pour un accord pafait.', 'box_pays_loire.png'),
+(4, 'Corse', '11.90', 'Cette box contient une biere La Corse aromatisée à l\'orange et au quinquina ainsi qu\'une Mimolette pour un accord pafait.', 'box_corse.png'),
+(5, 'Provence Alpes Côte-d\'Azur', '11.90', 'Cette box contient une biere La Provence Alpes Côte-d\'Azur aromatisée au thym et à la pêche ainsi qu\'un Banon pour un accord pafait.', 'box_provence.png'),
+(6, 'Nomandie', '11.90', 'Cette box contient une biere La Normande aromatisée à l\'abricot et au basilic ainsi qu\'un Camembert pour un accord pafait.', 'box_normandie.png'),
+(7, 'Occitanie', '11.90', 'Cette box contient une biere L\'Occitane aromatisée à la cerise et à la menthe ainsi qu\'une Tomme des pyrénées pour un accord pafait.', 'box_occitanie.png');
 
 -- --------------------------------------------------------
 

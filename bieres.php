@@ -4,6 +4,9 @@ $css = "public/css/style_bieres.css";
 require_once 'config.php';
 require_once 'app/model/dataConnection.php';
 require_once 'app/model/bieres.model.php';
+
+$db = getDatabaseConnection();
+$biereArray = getAllBiere($db);
 ob_start();
 
 include "view/bieres.view.php"; 

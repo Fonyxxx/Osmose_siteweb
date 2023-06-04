@@ -4,8 +4,6 @@
     </div>
     <div class="box">
     <?php 
-        $db = getDatabaseConnection();
-        $boxArray = getAllBox($db);
         foreach ($boxArray as $row) {
         ?>
         <div class="bloc_box">

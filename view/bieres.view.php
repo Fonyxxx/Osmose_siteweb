@@ -4,10 +4,9 @@
     </div>
     <div class="bieres">
         <?php 
-        $db = getDatabaseConnection();
-        $biereArray = getAllBiere($db);
         foreach ($biereArray as $row) {
         ?>
+        <a href="presentation.php?edit=<?php echo $row['id_biere']?>">
         <div class="bloc_biere">
             <img src="public/images/bieres/<?php echo $row['image']; ?>">
             <div class="text_bieres">
@@ -15,6 +14,7 @@
                 <h5><?php echo $row['prix']; ?>€</h5>
             </div>
         </div>
+        </a>
         <?php } ?>
     </div>
 </section>

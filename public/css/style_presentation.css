@@ -1,0 +1,56 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* découvrez-en plus */
+
+.decouvrez_plus{
+    padding: 5%;
+    max-width: 100%;
+}
+
+.bieres{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 5%;
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.bloc_biere{
+    align-items: center;
+}
+
+.bloc_biere img{
+    max-width: 100%;
+}
+
+.decouvrez_plus h1{
+    font-family: 'Apollo';
+    font-size: 2.1rem;
+    padding: 0% 5%;
+    font-weight: 500;
+}
+
+.text_bieres h3{
+    font-family: 'Apollo';
+    font-size: 1.7rem;
+    padding-top: 5%;
+}
+
+.text_bieres h5{
+    font-family: 'Apollo';
+    font-size: 1.2rem;
+    padding-top: 1%;
+}

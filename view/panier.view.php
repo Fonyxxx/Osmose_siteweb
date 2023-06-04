@@ -37,7 +37,7 @@
 
 <h6 id="rappel">Rappel : Pour le moment toutes nos bières coûtent 4,50 € et nos box 11,90 €</h6>
 
-<form class="formulaire_info" id="formulaire_info" action="lapage.php">
+<form class="formulaire_info" id="formulaire_info">
     <div id="bloc_prenom">
         <label for="prenom">Prénom</label><br>
         <input type="text" id="prenom" name="prenom" placeholder="Prénom" required><br>

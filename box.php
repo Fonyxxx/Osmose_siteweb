@@ -5,6 +5,8 @@ require_once 'config.php';
 require_once 'app/model/dataConnection.php';
 require_once 'app/model/box.model.php';
 
+$db = getDatabaseConnection();
+$boxArray = getAllBox($db);
 
 ob_start();
 include "view/box.view.php"; 

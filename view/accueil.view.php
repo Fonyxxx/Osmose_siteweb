@@ -23,30 +23,32 @@
 <section class="plus_vendues">
     <div class="text_plus_vendues">
         <h1>Les Plus Vendues</h1>
-    </div>
-    <div class="bieres">
-    <?php 
-    $db = getDatabaseConnection();
-    $biereArray = getAllBiere($db);
-    shuffle($biereArray);
-    $count = 0;
+            </div>
+            <div class="bieres">
+            <?php 
+            $db = getDatabaseConnection();
+            $biereArray = getAllBiere($db);
+            shuffle($biereArray);
+            $count = 0;
 
-    foreach ($biereArray as $row) {
-        if ($count >= 4) {
-            break; // Sortir de la boucle après avoir affiché 4 bières
-        }
-    ?>
-    <div class="bloc_biere">
-        <img src="public/images/bieres/<?php echo $row['image']; ?>">
-        <div class="text_bieres">
-            <h3><?php echo $row['nom']; ?></h3>
-            <h5><?php echo $row['prix']; ?>€</h5>
-        </div>
-    </div>
-    <?php 
-        $count++;
-    } 
-    ?>
+            foreach ($biereArray as $row) {
+                if ($count >= 4) {
+                    break; // Sortir de la boucle après avoir affiché 4 bières
+                }
+            ?>
+            <a href="presentation.php?edit=<?php echo $row['id_biere']?>">
+            <div class="bloc_biere">
+                <img src="public/images/bieres/<?php echo $row['image']; ?>">
+                <div class="text_bieres">
+                    <h3><?php echo $row['nom']; ?></h3>
+                    <h5><?php echo $row['prix']; ?>€</h5>
+                </div>
+            </div>
+            </a>
+            <?php 
+                $count++;
+            } 
+            ?>
     </div>
 </section>
 
