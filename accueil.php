@@ -12,7 +12,6 @@ $biereArray = getAllBiere($db);
 shuffle($biereArray);
 $count = 0;
 
-
 ob_start();
 
 include "view/accueil.view.php"; 

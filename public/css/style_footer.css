@@ -11,7 +11,7 @@
 
 .liste-footer h2{
     font-size: 1.4rem;
-    font-family: var(--big-font--);
+    font-family: 'Josefin';
     padding: 2% 0% 1% 0%;
 }
 
@@ -56,6 +56,7 @@
     color: #FFE7B6;
     font-weight: 300;
     font-size: 1.2rem;
+    font-family: 'Josefin';
 }
 
 .liste-footer ul li a:hover{
