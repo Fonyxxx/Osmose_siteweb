@@ -1,4 +1,4 @@
-<main>
+
     <div class="container_presentation"> 
 
         <div class="page_precedente">
@@ -71,5 +71,3 @@
 
     </div>
 
-
-</main>
