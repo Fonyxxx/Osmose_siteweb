@@ -1,3 +1,5 @@
+<main>
+
 <div class="intro_form">
     <h1>Panier</h1>
     <h4>Remplissez ces formulaires en choisissant la quantité afin de prendre votre commande !</h4>
@@ -82,8 +84,8 @@
     </div>
 </form> 
 
+</main>
 
-</section>
 
 
 

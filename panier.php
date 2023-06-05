@@ -11,7 +11,7 @@ $db = getDatabaseConnection();
 $biereArray = getAllBiere($db);
 $boxArray = getAllBox($db);
 
-
+/*
 // Vérifier si le formulaire a été soumis
     $prenom = $_POST['prenom'];
     $nom = $_POST['nom'];
@@ -22,6 +22,7 @@ $boxArray = getAllBox($db);
 
     // Appel de la fonction createClient pour créer le compte client
     $clientId = createClient($db, $prenom, $nom, $email, $adresse, $ville, $code_postal);
+*/
 
 ob_start();
 include "view/panier.view.php";
