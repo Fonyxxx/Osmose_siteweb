@@ -55,6 +55,7 @@
             break; // Sortir de la boucle après avoir affiché 4 bières
             }
             ?>
+            <a href="presentation.php?edit=<?php echo $row['id_biere']?>">
             <div class="bloc_biere">
                 <img src="public/images/bieres/<?php echo $row['image']; ?>">
                 <div class="text_bieres">
@@ -62,6 +63,7 @@
                     <h5><?php echo $row['prix']; ?>€</h5>
                 </div>
             </div>
+            </a>
             <?php 
             $count++;
             } 

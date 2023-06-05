@@ -12,7 +12,6 @@ shuffle($biereArray);
 $count = 0;
 
 
-
 $id_biere = $_GET['edit'];
 $SpebiereArray = getSpeBiere($db, $id_biere);
 

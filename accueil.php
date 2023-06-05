@@ -11,6 +11,8 @@ $db = getDatabaseConnection();
 $biereArray = getAllBiere($db);
 shuffle($biereArray);
 $count = 0;
+
+$db = getDatabaseConnection();
 $boxArray = getAllBox($db);
 shuffle($boxArray);
 $count = 0;
