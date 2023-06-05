@@ -28,7 +28,7 @@
             <img src="public/images/box/<?php echo $row['image']; ?>">
             <div class="noms_bieres">
                 <label for="bieres"><?php echo $row['nom']; ?></label>
-                <input type="number" id="<?php echo $row['nom']; ?>" name="<?php echo $row['nom']; ?>" data-id="<?php echo $row['id_box']; ?> min="0" max="10" placeholder="0">
+                <input type="number" id="<?php echo $row['nom']; ?>" name="<?php echo $row['nom']; ?>" data-id="<?php echo $row['id_box']; ?>" min="0" max="10" placeholder="0">
             </div>
         </div>
         <?php } ?>
