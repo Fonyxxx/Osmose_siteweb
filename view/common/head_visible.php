@@ -11,7 +11,6 @@
 				    <li class="lespages"><a href="brasserie.php">BRASSERIE</a></li>
 				    <li class="lespages"><a href="evenements.php">EVENEMENT</a></li>
 				    <li class="lespages"><a href="contact.php">CONTACT</a></li>
-                    <li class="icons_header"><a href="#"><i class='bx bx-search'></i></a></li>
                     <li class="icons_header" id="icon_panier"><a href="panier.php"><i class='bx bx-shopping-bag'></i></a></li>
 			    </ul>
             </div>
