@@ -41,8 +41,18 @@
     font-size: 3rem;
 }
 
+.reseaux i:hover{
+    transform: scale(1.1);
+    transition: ease .4s;
+}
+
 .liste-footer ul{
     padding: 3% 0%;
+}
+
+.liste-footer h2{
+    font-family: 'apollo';
+    font-weight: 400;
 }
 
 .liste-footer ul li {
@@ -61,7 +71,7 @@
 
 .liste-footer ul li a:hover{
     text-decoration: underline;
-    transition: ease .5s;
+    transition: ease .9s;
 }
 
 .copyrights{

@@ -97,6 +97,7 @@
     font-size: 18px;
     font-family: 'Apollo';
     margin: 5px;
+    font-weight: 300;
 }
 
 .texte_element {
@@ -208,10 +209,12 @@
     font-family: 'Apollo';
     font-size: 1.7rem;
     padding-top: 5%;
+    font-weight: 500;
 }
 
 .text_bieres h5{
     font-family: 'Apollo';
     font-size: 1.2rem;
     padding-top: 1%;
+    font-weight: 400;
 }
