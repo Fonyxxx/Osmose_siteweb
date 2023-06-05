@@ -1,11 +1,7 @@
 <main>
-    <?php 
-    $id_biere = $_GET['edit'];
-    $SpebiereArray = getSpeBiere($db, $id_biere);
-    ?>
     <div class="container_presentation"> 
 
-        <div class="page_précédente">
+        <div class="page_precedente">
             <a href=""><i class='bx bx-chevron-left'></i></a>
             <h1>Retournez sur la page précédente</h3>
         </div>
@@ -14,33 +10,37 @@
         foreach ($SpebiereArray as $row) {
         ?> 
 
-        <div class="presentation">
+        <div class="bordure_presentation">
             <h1><?php echo $row['nom'];?></h1>
+        <div class="presentation">
 
             <div class="image_fond">
-                <img class="image_biere" src="public/images/bieres_seules/<?php echo $row['image'];?>" alt="">
-                <img id ="img_background" src="public/images/fonds/fond_grand_est.svg" alt="">
+                <div>
+                    <img class="image_biere" src="public/images/bieres_seules/<?php echo $row['image'];?>" alt="image de la bière">
+                </div>
             </div>
             
             <div class="elements_biere">
 
                 <div class="element" id="aromes">
                     <h2 class="titre_element">Arôme</h2>
-                    <p><?php echo $row['aromes'];?></p>
+                    <p class="texte_element"><?php echo $row['aromes'];?></p>
                 </div>
                 <div class="element" id="type">
                     <h2 class="titre_element">Type</h2>
-                    <p><?php echo $row['type'];?></p>
+                    <p class="texte_element"><?php echo $row['type'];?></p>
                 </div>
                 <div class="element" id="prix">
                     <h2 class="titre_element">Prix</h2>
-                    <p><?php echo $row['prix'];?>€</p>
+                    <p class="texte_element"><?php echo $row['prix'];?>€</p>
                 </div>
-                <div class="element" id="description">
+                <div class="" id="description">
                     <h2 class="titre_element">Description</h2>
-                    <p><?php echo $row['description'];?></p>
+                    <p class="texte_element"><?php echo $row['description'];?></p>
                 </div>
 
+            </div>
+        </div>
         </div>
         <?php } ?>
 
