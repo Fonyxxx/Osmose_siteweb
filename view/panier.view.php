@@ -80,14 +80,18 @@
             <input type="checkbox" id="consent" name="consent" unchecked required>
             <label for="scales">En cochant cette case, j'affirme avoir lu et accepté la politique de confidentialité</label>
         </div>
-        <input id="bouton_panier" type="submit" value="Envoyer">
+        <div>
+            <p id="commande_oui"></p>
+        </div>
+        <input id="bouton_panier" onclick="commande()" type="submit" value="Envoyer">
     </div>
 </form> 
 
 </main>
 
 
-
+ <!------Lien JS------>
+ <script type="text/javascript" src="public/js/panier.js"></script>
 
 
 
