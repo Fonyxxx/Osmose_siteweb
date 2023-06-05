@@ -18,8 +18,14 @@
     color: #762F26;
 }
 
+.page_precedente a {
+    text-decoration: none;
+}
+
+
 .page_precedente h1 {
     font-size: 20px;
+    color:#762F26;
 }
 
 
