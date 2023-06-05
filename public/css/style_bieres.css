@@ -14,6 +14,66 @@
     align-items: center;
 }
 
+.bieres a{
+    text-decoration: none;
+}
+
+.bieres a:nth-child(1):hover{
+    transform: scale(1.05);
+    transition: ease .5s;
+}
+
+.bieres a:nth-child(2):hover{
+    transform: scale(1.05);
+    transition: ease .5s;
+}
+
+.bieres a:nth-child(3):hover{
+    transform: scale(1.05);
+    transition: ease .5s;
+}
+
+.bieres a:nth-child(4):hover{
+    transform: scale(1.05);
+    transition: ease .5s;
+}
+
+.bieres a:nth-child(5):hover{
+    transform: scale(1.05);
+    transition: ease .5s;
+}
+
+.bieres a:nth-child(6):hover{
+    transform: scale(1.05);
+    transition: ease .5s;
+}
+
+.bieres a:nth-child(7):hover{
+    transform: scale(1.05);
+    transition: ease .5s;
+}
+
+.text_bieres h3, .text_bieres h5 {
+    text-decoration: none;
+    color: var(--secound-color--);
+}
+
+.text_bieres h3{
+    font-family: 'Apollo';
+    font-size: 1.7rem;
+    padding-top: 5%;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.text_bieres h5{
+    font-family: 'Apollo';
+    font-size: 1.2rem;
+    padding-top: 1%;
+    text-decoration: none;
+    font-weight: 400;
+}
+
 .bloc_biere{
     align-items: center;
 }
@@ -27,18 +87,6 @@
     font-size: 2.1rem;
     padding: 0% 5%;
     font-weight: 500;
-}
-
-.text_bieres h3{
-    font-family: var(--big-font--);
-    font-size: 1.7rem;
-    padding-top: 5%;
-}
-
-.text_bieres h5{
-    font-family: var(--big-font--);
-    font-size: 1.2rem;
-    padding-top: 1%;
 }
 
 /*------PROCHAINEMENT------*/
@@ -75,13 +123,27 @@
 }
 
 .text_prochainement h3{
-    font-family: var(--big-font--);
+    font-family: 'apollo';
     font-size: 1.7rem;
     padding-top: 5%;
+    font-weight: 500;
 }
 
 .text_prochainement h5{
-    font-family: var(--big-font--);
+    font-family: 'apollo';
     font-size: 1.2rem;
     padding-top: 1%;
+    font-weight: 400;
+}
+
+.text_prochainement h3, .text_prochainement h5 {
+    text-decoration: none;
+    color: var(--secound-color--);
+}
+
+.text_prochainement h1{
+    font-family: 'apollo';
+    font-size: 2.1rem;
+    padding: 0% 5%;
+    font-weight: 500;
 }
