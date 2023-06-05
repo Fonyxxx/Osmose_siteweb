@@ -13,6 +13,11 @@ $count = 0;
 
 
 
+$id_biere = $_GET['edit'];
+$SpebiereArray = getSpeBiere($db, $id_biere);
+
+
+
 ob_start();
 
 include "view/presentation.view.php"; 

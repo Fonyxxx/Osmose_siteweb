@@ -38,7 +38,7 @@ nav {
     display: flex;
     align-items: center;
     text-align: center;
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 .logo img {
@@ -84,6 +84,10 @@ nav {
 
 .icons_header a {
     color:rgb(5, 37, 6);
+}
+
+#icon_panier {
+    padding-right: 20px;
 }
 
 .icons_header a:hover{
