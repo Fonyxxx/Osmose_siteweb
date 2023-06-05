@@ -1,4 +1,4 @@
-
+<main>
 
 <div id="titre_contact">
 	<h1>Nous contacter</h1>
@@ -61,3 +61,5 @@
 	</div>
 
 </div>
+
+</main>

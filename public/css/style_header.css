@@ -4,7 +4,7 @@
 }
 
 @font-face {
-    font-family: 'Josefin'; 
+    font-family: 'Josefin Sans'; 
     src: url('../fonts/JosefinSans-Regular.ttf'); 
 }
 
@@ -15,8 +15,14 @@
     --main-color--:#FFF3E0;
     --secound-color--:#32422E;
     --detail-color--: #E8CA90;
-    font-family: 'Josefin';
+    font-family: 'Josefin Sans';
 }
+
+main {
+    padding-top: 6rem;
+}
+
+
 
 /*
 main{
@@ -32,6 +38,9 @@ nav {
     align-items: center;
     text-align: center;
     background-color:#FFF3E0;
+    box-shadow: 0.2px 0 5px #32422E;
+    z-index: 98;
+    position: fixed;
 }
 
 .logo {
