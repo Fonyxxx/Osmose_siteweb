@@ -2,7 +2,7 @@
 <header>
 </header>
 
-    <main>
+    <section class="main_age">
         <div id="cadre">
             <div class="blocs_content" id="contenu">
 
@@ -27,7 +27,7 @@
         
 
 
-    </main>
+    </section>
 </body>
 
 

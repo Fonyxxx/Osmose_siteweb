@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="http://www.cdnfonts.com/apollo.font" rel="canonical">
-    <link rel="icon" type="image/png" href="public\images\logo2.svg"/>
+    <link rel="icon" type="image/png" href="public\images\logo3.svg"/>
     <link rel="stylesheet" href="public/css/style_header.css">
     <link rel="stylesheet" href="public/css/style_footer.css">
     <title><?= $page_titre ?></title>
