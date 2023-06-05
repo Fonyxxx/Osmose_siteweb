@@ -3,7 +3,7 @@
 require_once "config.php";
 function getDatabaseConnection(): PDO
 {
-    $dsn = 'mysql:host=' . DB_HOST . ';dbname=Osmose_siteweb;charset=utf8';
+    $dsn = 'mysql:host=' . DB_HOST . ';dbname='. DB_HOST . ';charset=utf8';
 
     try { 
         $databaseConnection = new PDO($dsn, DB_USER, DB_PASSWORD);
