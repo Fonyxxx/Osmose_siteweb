@@ -97,7 +97,7 @@ main{
     border-radius: 30px;
     justify-content: center;
     gap: 6%;
-    padding: 2% 5% 16%;
+    padding: 2% 5% 12%;
     grid-template-columns: 1fr 1fr;
 }
 
