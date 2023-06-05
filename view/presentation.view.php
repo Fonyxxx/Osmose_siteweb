@@ -2,8 +2,8 @@
     <div class="container_presentation"> 
 
         <div class="page_precedente">
-            <a href=""><i class='bx bx-chevron-left'></i></a>
-            <h1>Retournez sur la page précédente</h3>
+            <a href="#" onclick="goBack()" ><i class='bx bx-chevron-left'></i></a>
+            <a href="#" onclick="goBack()" ><h1>Retournez sur la page précédente</h3></a>
         </div>
 
         <?php 
@@ -71,3 +71,9 @@
 
     </div>
 
+
+<script>
+function goBack() {
+  history.back();
+}
+</script>
