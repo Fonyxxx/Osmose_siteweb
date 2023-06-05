@@ -98,6 +98,41 @@
     color: var(--secound-color--);
 }
 
+.bieres a:nth-child(1):hover{
+    transform: scale(1.05);
+    transition: ease .5s;
+}
+
+.bieres a:nth-child(2):hover{
+    transform: scale(1.05);
+    transition: ease .5s;
+}
+
+.bieres a:nth-child(3):hover{
+    transform: scale(1.05);
+    transition: ease .5s;
+}
+
+.bieres a:nth-child(4):hover{
+    transform: scale(1.05);
+    transition: ease .5s;
+}
+
+.bieres a:nth-child(5):hover{
+    transform: scale(1.05);
+    transition: ease .5s;
+}
+
+.bieres a:nth-child(6):hover{
+    transform: scale(1.05);
+    transition: ease .5s;
+}
+
+.bieres a:nth-child(7):hover{
+    transform: scale(1.05);
+    transition: ease .5s;
+}
+
 .bloc_biere{
     align-items: center;
 }
@@ -141,6 +176,42 @@
     gap: 30px;
     text-align: center;
     align-items: center;
+    cursor: pointer;
+}
+
+.box a:nth-child(1):hover{
+    transform: scale(1.05);
+    transition: ease .5s;
+}
+
+.box a:nth-child(2):hover{
+    transform: scale(1.05);
+    transition: ease .5s;
+}
+
+.box a:nth-child(3):hover{
+    transform: scale(1.05);
+    transition: ease .5s;
+}
+
+.box a:nth-child(4):hover{
+    transform: scale(1.05);
+    transition: ease .5s;
+}
+
+.box a:nth-child(5):hover{
+    transform: scale(1.05);
+    transition: ease .5s;
+}
+
+.box a:nth-child(6):hover{
+    transform: scale(1.05);
+    transition: ease .5s;
+}
+
+.box a:nth-child(7):hover{
+    transform: scale(1.05);
+    transition: ease .5s;
 }
 
 .bloc_box{

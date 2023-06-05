@@ -54,11 +54,6 @@
     </div>
     <div class="box">
     <?php 
-    $db = getDatabaseConnection();
-    $boxArray = getAllBox($db);
-    shuffle($boxArray);
-    $count = 0;
-
     foreach ($boxArray as $row) {
         if ($count >= 4) {
             break; // Sortir de la boucle après avoir affiché 4 bières
